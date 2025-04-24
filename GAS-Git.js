@@ -9,8 +9,9 @@ const rl = readline.createInterface({
 });
 
 const claspProjectRoot = "./temp-clasp";
+// Update as per required directory
 const githubRoot = "D:/AppScripts";
-const githubRepoPath = path.join(githubRoot, "CM");
+const githubRepoPath = path.join(githubRoot, "GIT PROJECT or folder Name");   // Update Project Name here 
 const logFile = "SanitizingOutput.txt";
 const apiKeywords = ['/api/', '/cm/', '/bots/', '/v1/', '/v2/'];
 const domainPattern = /\b([a-zA-Z_][a-zA-Z0-9_]*)\b/g;
